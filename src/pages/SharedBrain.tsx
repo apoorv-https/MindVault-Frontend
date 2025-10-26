@@ -98,7 +98,7 @@ export function SharedBrain() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold text-gray-800">
-                {username}'s Second Brain
+                {username}'s Mind Vault
               </h1>
               <p className="text-gray-600 mt-1">
                 {contents.length} item{contents.length !== 1 ? 's' : ''} shared
@@ -154,7 +154,7 @@ export function SharedBrain() {
       <div className="bg-white border-t border-gray-200 mt-12">
         <div className="max-w-7xl mx-auto px-4 py-6 text-center">
           <p className="text-gray-600">
-            Want your own Second Brain?{" "}
+            Want your own Mind Vault?{" "}
             <a href="/" className="text-purple-600 hover:text-purple-700 font-medium">
               Get Started
             </a>
